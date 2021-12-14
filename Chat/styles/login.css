@@ -1,0 +1,61 @@
+@font-face {
+	font-family: font;
+	src: url(/fonts/Uni\ Sans\ Thin.otf);
+}
+
+* {
+	background-color: #36393f;
+	color: #b9bbbe;
+	font-family: font;
+}
+.login {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -260px;
+	text-align: center;
+	border-style: solid;
+	border-radius: 25px;
+}
+input {
+	background: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: none;
+	outline: none;
+	position: relative;
+	top: 70px;
+	border-radius: 25px;
+	border-style: solid;
+	width: 50%;
+	height: 30px;
+}
+#enter {
+	position: relative;
+	padding: none;
+	outline: none;
+	top: 100px;
+	width: 30%;
+	height: 30px;
+	background-color: #5865f2;
+	border-color: #5865f2;
+	border-style: solid;
+	border-radius: 15px;
+}
+#enter:hover {
+	background-color: rgb(108, 120, 248);
+	border-color: rgb(108, 120, 248);
+}
+span {
+	position: relative;
+	top: 70px;
+}
+@media (max-width: 910px) {
+	.login {
+		border-color: #36393f;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+	}
+}
