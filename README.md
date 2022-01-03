@@ -7,10 +7,10 @@
 <br />
 <br />
 
-![alt text](https://cdn.discordapp.com/attachments/715359471257518132/920084316615241728/unknown.png)
+![alt text](https://cdn.discordapp.com/attachments/844341318469287956/927565137802592266/unknown.png)
 <br />
 <br />
-![alt text](https://cdn.discordapp.com/attachments/715359471257518132/920317395212595210/unknown.png)
+![alt text](https://cdn.discordapp.com/attachments/844341318469287956/927565226742784030/unknown.png)
 
 
 [website]: https://www.google.com
