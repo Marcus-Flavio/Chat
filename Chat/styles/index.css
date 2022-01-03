@@ -1,5 +1,5 @@
 @font-face {
-	font-family: font;
+font-family: font;
 	src: url(/fonts/Uni\ Sans\ Thin.otf);
 }
 
@@ -10,10 +10,6 @@
 }
 
 .info {
-	/* margin-bottom: 50px;
-	position: fixed;
-	width: 20vw;
-	height: 620px; */
 	text-align: center;
 	height: 50%;
 	width: 200px;
@@ -34,25 +30,23 @@ p {
 #img3 {
 	margin-right: 15px;
 }
-/* #login {
-	padding: none;
-	outline: none;
-	width: 7%;
-	height: 30px;
-	background-color: #5865f2;
-	border-color: #5865f2;
-	border-style: solid;
-	border-radius: 10px;
-}
-#login:hover {
-	background-color: rgb(108, 120, 248);
-} */
 .send_msg {
 	position: fixed;
 	bottom: -2px;
-	left: 190px;
+	left: 210px;
 	width: calc(100% - 200px);
 	height: 50px;
+}
+.send_msg button {
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	width: 10%;
+	height: 40px;
+	background-color: #5865f2;
+}
+.send_msg button:hover {
+	background-color: rgb(108, 120, 248);
 }
 
 #input {
@@ -62,14 +56,8 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	border-radius: 25px;
 	background-color: #40444b;
-	width: 100%;
+	width: 87%;
 	height: 32px;
-}
-#button {
-	padding: none;
-	outline: none;
-	border: none;
-	background-color: #36393f;
 }
 a.button {
 	position: relative;
@@ -89,6 +77,8 @@ a.button {
 	text-decoration: none;
 }
 #messages {
+	max-width: 300px;
+	word-wrap: break-word;
 	list-style-type: none;
 	position: relative;
 	text-align: center;
@@ -117,35 +107,29 @@ a.button:hover {
 	background-color: rgb(108, 120, 248);
 	border-color: rgb(108, 120, 248);
 }
-/* @media screen and (max-width: 800px) {
-	a.button {
-		font-size: 12.5px;
-		width: 30%;
-		height: 4%;
-	}
-	#messages {
-		left: 55vw;
-	}
-} */
+#erro-msg {
+	color: red;
+}
 @media (max-width: 910px) {
-	/* .send-msg {
-		width: 100%;
-		height: 140px;
-	} */
-	.info {
-		width: 300px;
-		position: static;
-		margin: auto;
-		padding: auto;
-	}
-	#messages {
-		left: 0.1vw;
-		margin: auto;
-		align-items: center;
-	}
-
-	.send_msg {
-		width: 95%;
-		left: auto;
-	}
+.info {
+	width: 300px;
+	position: static;
+	margin: auto;
+	padding: auto;
+}
+#messages {
+	left: 0.1vw;
+	margin: auto;
+	align-items: center;
+}
+#input {
+	width: 82%;
+}
+#button {
+	width: 12%;
+}
+.send_msg {
+	width: 100%;
+	left: auto;
+}
 }
