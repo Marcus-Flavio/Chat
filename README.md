@@ -6,10 +6,6 @@
 [<img align="left" alt="Marcus Flávio | Twitch" width="30px" src="https://cdn.discordapp.com/attachments/854760271424126987/910300571624415232/iconmonstr-twitch-1-removebg-preview.png" />][twitch]
 <br />
 <br />
-
-![alt text](https://cdn.discordapp.com/attachments/844341318469287956/927565137802592266/unknown.png)
-<br />
-<br />
 ![alt text](https://cdn.discordapp.com/attachments/844341318469287956/927565226742784030/unknown.png)
 
 
