@@ -1,4 +1,4 @@
-# Chat-Front-end
+# Chat
 
 ### Connect with me:
 [<img align="left" alt="jarvis.com" width="30px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
